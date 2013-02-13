@@ -7,7 +7,7 @@ Haller.php
 
 Örnek kullanım:
 <pre>
-<?php
+&lt;?php
 include_once "Haller.php";
 
 echo \Sonsuzdongu\Haller::get("Osman","iyelik"); // Osman'ın
