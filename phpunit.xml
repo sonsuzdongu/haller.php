@@ -1,12 +1,12 @@
 <phpunit colors="true">
     <testsuite name="Haller">
-        <directory>./</directory>
+        <directory>./tests</directory>
     </testsuite>
 
     <logging>
-        <log type="coverage-html" target="../docs/tests/report" charset="UTF-8"
+        <log type="coverage-html" target="docs/tests/report" charset="UTF-8"
             yui="true" highlight="true"
             lowUpperBound="50" highLowerBound="80"/>
-        <log type="testdox-html" target="../docs/tests/testdox.html" />
+        <log type="testdox-html" target="docs/tests/testdox.html" />
     </logging>
 </phpunit>
