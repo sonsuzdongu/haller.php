@@ -1,0 +1,13 @@
+language: php
+
+php:
+  - 5.3.3
+
+before_install:
+  - php composer.phar install --dev
+  - wget http://cs.sensiolabs.org/get/php-cs-fixer.phar
+  - phpenv rehash
+
+script:
+  - phpunit 
+  - output=$(php php-cs-fixer.phar fix -v --dry-run .); if [[ $output ]]; then while read -r line; do echo -e "\e[00;31m$line\e[00m"; done <<< "$output"; false; fi; 

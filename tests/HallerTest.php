@@ -14,7 +14,7 @@
 
 namespace Sonsuzdongu;
 
-include_once '../Haller.php';
+include_once __DIR__ . '/../Haller.php';
 
 /**
  * HallerTest
