@@ -4,7 +4,6 @@ php:
   - 5.3.3
 
 before_install:
-  - php composer.phar install --dev
   - wget http://cs.sensiolabs.org/get/php-cs-fixer.phar
   - phpenv rehash
 
