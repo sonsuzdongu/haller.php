@@ -10,5 +10,7 @@ Haller.php
 &lt;?php
 include_once "Haller.php";
 
-echo \Sonsuzdongu\Haller::get("Osman","iyelik"); // Osman'ın
+echo \Sonsuzdongu\Haller::get("Kemal Sunal","iyelik"); // Kemal Sunal'ın
+echo \Sonsuzdongu\Haller::get("Osman","i"); // Osman'ı
+echo \Sonsuzdongu\Haller::get("Alp","e"); // Alp'e
 </pre>
