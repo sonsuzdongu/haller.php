@@ -36,6 +36,7 @@ class HallerTest extends \PHPUnit_Framework_TestCase
     {
         return array(
             array("Osman", "Osman'ın"),
+            array("Kemal Sunal", "Kemal Sunal'ın"),
             array("Alp", "Alp'in"),
             array("Mustafa", "Mustafa'nın"),
             array("Teslime", "Teslime'nin"),
@@ -59,6 +60,7 @@ class HallerTest extends \PHPUnit_Framework_TestCase
     {
         return array(
             array("Osman", "Osman'ı"),
+            array("Kemal Sunal", "Kemal Sunal'ı"),
             array("Alp", "Alp'i"),
             array("Mustafa", "Mustafa'yı"),
             array("Teslime", "Teslime'yi"),
@@ -82,6 +84,7 @@ class HallerTest extends \PHPUnit_Framework_TestCase
     {
         return array(
             array("Osman", "Osman'a"),
+            array("Kemal Sunal", "Kemal Sunal'a"),
             array("Alp", "Alp'e"),
             array("Mustafa", "Mustafa'ya"),
             array("Teslime", "Teslime'ye"),
@@ -105,6 +108,7 @@ class HallerTest extends \PHPUnit_Framework_TestCase
     {
         return array(
             array("Osman", "Osman'da"),
+            array("Kemal Sunal", "Kemal Sunal'da"),
             array("Alp", "Alp'te"),
             array("Mustafa", "Mustafa'da"),
             array("Teslime", "Teslime'de"),
@@ -128,6 +132,7 @@ class HallerTest extends \PHPUnit_Framework_TestCase
     {
         return array(
             array("Osman", "Osman'dan"),
+            array("Kemal Sunal", "Kemal Sunal'dan"),
             array("Alp", "Alp'ten"),
             array("Mustafa", "Mustafa'dan"),
             array("Teslime", "Teslime'den"),

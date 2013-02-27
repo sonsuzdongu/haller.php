@@ -9,7 +9,8 @@ class Haller
 {
     public static function get($isim, $hal)
     {
-        $isim = mb_strtolower($isim, "UTF-8");
+        $_isim = $isim = mb_strtolower($isim, "UTF-8");
+        $isim = end(explode(" ", $isim));
         $iyelik = "iyelik";
         $iHali = "i";
         $eHali = "e";
@@ -46,6 +47,6 @@ class Haller
             $ek .= 'n';
         }
 
-        return mb_convert_case($isim, MB_CASE_TITLE, "UTF-8") . "'" . $ek;
+        return mb_convert_case($_isim, MB_CASE_TITLE, "UTF-8") . "'" . $ek;
     }
 }
