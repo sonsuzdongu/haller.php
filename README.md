@@ -3,7 +3,7 @@
 Haller.php
 ==========
 
-@skatersercan'ın Haller.js'inin PHP portu
+@sercaneraslan'ın Haller.js'inin PHP portu
 
 Örnek kullanım:
 <pre>
