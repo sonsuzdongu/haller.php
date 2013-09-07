@@ -1,7 +1,7 @@
 {
     "name"             : "sonsuzdongu/haller.php",
     "type"             : "library",
-    "description"      : "PHP port of http://skatersercan.github.io/Haller.js/. A helper for applying some of the Turkish inflectional suffixes to (proper) nouns.",
+    "description"      : "PHP port of http://sercaneraslan.github.io/Haller.js/. A helper for applying some of the Turkish inflectional suffixes to (proper) nouns.",
     "keywords"         : ["Turkish", "grammar"],
     "license"          : "MIT",
     "authors"          : [
