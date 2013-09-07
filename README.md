@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/sonsuzdongu/Haller.php.png?branch=master)](https://travis-ci.org/sonsuzdongu/Haller.php)
+[![Build Status](https://travis-ci.org/sonsuzdongu/haller.php.png?branch=master)](https://travis-ci.org/sonsuzdongu/haller.php)
 
-Haller.php
+haller.php
 ==========
 
 @sercaneraslan'ın Haller.js'inin PHP portu
