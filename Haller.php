@@ -18,10 +18,10 @@ class Haller
         $deHali = "de";
         $denHali = "den";
         $iEkleri = "ııiiuuüü";
-        $sonHarf = substr($isim, -1);
+        $sonHarf = mb_substr($isim, -1);
         $istisna = ((int) preg_match("/[ei][^ıüoö]*[au]l$|alp$/", $isim)) * 2;
 
-        preg_match_all("/[aıeiouöü]/", $isim, $sonSesliMatches);
+        preg_match_all("/[aıeiouöü]/u", $isim, $sonSesliMatches);
         $sonSesli = end($sonSesliMatches[0]);
 
         $ek = "";
