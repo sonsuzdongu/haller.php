@@ -8,7 +8,7 @@ haller.php
 Örnek kullanım:
 <pre>
 &lt;?php
-include_once "Haller.php";
+include_once "Sonsuzdongu/Haller.php";
 
 echo \Sonsuzdongu\Haller::get("Kemal Sunal","iyelik"); // Kemal Sunal'ın
 echo \Sonsuzdongu\Haller::get("Osman","i"); // Osman'ı
