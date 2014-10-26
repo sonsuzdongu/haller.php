@@ -16,8 +16,9 @@
     },
     "autoload"         : {
         "psr-0": {
-            "Sonsuzdongu\\Haller\\": "."
+            "Sonsuzdongu\\Haller\\": ""
         }
     },
+    "target-dir": "Sonsuzdongu/Haller",
     "minimum-stability": "dev"
 }
